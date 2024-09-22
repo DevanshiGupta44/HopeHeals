@@ -49,9 +49,3 @@ This project is a full stack Health Recommender System designed to assist in the
 - **Git**
 - **VS Code**
 
-## Installation
-
-1. Clone the repository:
-
-   ```bash
-   git clone [repository-url]
