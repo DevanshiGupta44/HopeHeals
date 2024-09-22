@@ -1,41 +1,21 @@
-# Health Recommender System - Full Stack React Application (Frontend)
+# Health Recommender System with Skin and Lung Cancer Detection
 
 ## Overview
 
-This project is a full stack application that combines a React frontend with a Flask backend to create a Health Recommender System. The system includes functionalities for symptom checking and lung and skin cancer detection, leveraging advanced machine learning models.
+This project is a Health Recommender System designed to assist in the early detection and management of health conditions, specifically focusing on Skin and Lung Cancer. The system leverages various recommendation techniques and integrates advanced machine learning models for cancer detection to provide comprehensive healthcare recommendations.
 
 ## Features
 
-1. **Frontend (React App):**
-   - **Home Page:** Introduction and overview of the system.
-   - **Symptom Checker Page:** Allows users to input symptoms and receive disease and treatment recommendations.
-   - **Lung Cancer Detection Page:** Enables users to upload images for lung cancer detection.
-   - **Skin Cancer Detection Page:** Enables users to upload images for skin cancer detection.
+1. **Recommendation Techniques:**
+   - Implemented various recommendation techniques with a primary focus on content-based filtering.
+   - The system suggests potential diseases and corresponding treatment plans based on user-reported symptoms.
 
-2. **Backend (Flask API):**
-   - **Symptom Checker API:** Provides recommendations based on user-reported symptoms using content-based filtering.
-   - **Lung Cancer Detection API:** Processes lung images with a CNN model and returns detection results.
-   - **Skin Cancer Detection API:** Processes skin images with a CNN model and returns detection results.
-
-The backend contains a recommendation system (content-based filtering) and different CNN models for lung and skin detection. The whole backend is already added to GitHub, where you can access all the code: [Backend Repository]
+2. **Cancer Detection:**
+   - Integrated Convolutional Neural Network (CNN) models for Skin and Lung Cancer detection.
+   - Utilized TensorFlow and Keras frameworks for building and training the models.
 
 ## Technologies Used
 
-### Frontend
-- **React**
-- **React-DOM**
-- **Redux Toolkit**
-- **Material UI**
-- **React-Router**
-- **JavaScript**
-- **HTML**
-- **CSS**
-
-### Backend
-- **Flask**
-- **Python**
-- **TensorFlow**
-- **Keras**
-- **Pandas**
-- **NumPy**
-
+- **Programming Languages:** Python
+- **Libraries and Frameworks:** TensorFlow, Keras, Scikit-learn, Pandas, NumPy, Flask 
+- **Tools:** Jupyter Notebook, Git, VS Code
